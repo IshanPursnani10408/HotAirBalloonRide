@@ -46,14 +46,14 @@ function draw() {
     if(balloon.y>150){
       updatePosition(0,-10)
       balloon.y=balloon.y-10
-      balloon.scale=balloon.scale-0.05
+      balloon.scale=balloon.scale-0.03
     }
   }  
   if(keyDown(DOWN_ARROW)){
     if(balloon.y<350){
       updatePosition(0,+10)
       balloon.y=balloon.y+10
-      balloon.scale=balloon.scale+0.05
+      balloon.scale=balloon.scale+0.03
     }
   }
 
